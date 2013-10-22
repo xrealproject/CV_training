@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.app.Activity;
 import android.content.Context;
@@ -20,11 +21,15 @@ import android.graphics.BitmapFactory;
 public class MainActivity extends Activity implements OnClickListener {
 
 	private static final int REQ_CODE_TAKE_VIDEO = 9999;
+	public native String helloLog();
 	private Uri mUri;
 	private Button mRecordButton;
 	public static final String TEST_VIDEO_FILES_ROOT_PATH = "/TestVideo";
 	public static final String TEST_VIDEO_VIDEOS_PATH = "/TestVideo Videos";
 	public static final String EXTENSION_MP4 = ".mp4";
+	static {
+		System.loadLibrary("testvideo");
+	}
 
 
 	@Override
@@ -43,6 +48,12 @@ public class MainActivity extends Activity implements OnClickListener {
 		}
 	}
 	
+	public void onMyButtonClick(View view)
+	{
+		TextView textView = new TextView(this);
+		textView.setText(helloLog());
+		setContentView(textView);
+	}
 	
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent dataIntent) {
