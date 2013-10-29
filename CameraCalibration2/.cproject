@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.debug.2142653813">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.debug.2142653813" moduleId="org.eclipse.cdt.core.settings" name="Debug">
@@ -25,13 +27,22 @@
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.933243548" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.1722871931" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.883751196" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv2&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\include\opencv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\include\opencv2&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1219118186" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.2041032432" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.exe.debug.option.optimization.level.594209283" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.debug.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.mingw.exe.debug.option.debugging.level.1079893324" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1692342558" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\include\opencv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\include\opencv2&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv2&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2003511010" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.624295995" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug"/>
@@ -40,10 +51,10 @@
 									<listOptionValue builtIn="false" value="&quot;C:\opencv\build\x86\mingw\lib&quot;"/>
 								</option>
 								<option id="gnu.cpp.link.option.libs.963695022" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="opencv_highgui243"/>
-									<listOptionValue builtIn="false" value="opencv_imgproc243"/>
-									<listOptionValue builtIn="false" value="opencv_calib3d243"/>
-									<listOptionValue builtIn="false" value="opencv_core243"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="&quot;C:\opencv\build\x86\mingw\bin\libopencv_calib3d245.dll&quot;"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="&quot;C:\opencv\build\x86\mingw\bin\libopencv_core245.dll&quot;"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="&quot;C:\opencv\build\x86\mingw\bin\libopencv_highgui245.dll&quot;"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="&quot;C:\opencv\build\x86\mingw\bin\libopencv_imgproc245.dll&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.269768750" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -52,8 +63,29 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.2142653813.798550952" name="CameraCalibration2.cpp" rcbsApplicability="disable" resourcePath="src/CameraCalibration2.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.271497518.1567220218">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.271497518.1567220218" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.271497518">
+							<option id="gnu.cpp.compiler.option.include.paths.1878173073" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+								<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv2&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\opencv\include\opencv&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\opencv\include\opencv2&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv2\core&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv2\highgui&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv2\imgproc&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\opencv\build\include\opencv2\calib3d&quot;"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1836326480" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.596364592" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.786106561" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1338725270" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="CameraCalibration2.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -109,6 +141,16 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="CameraCalibration2.cdt.managedbuild.target.gnu.mingw.exe.1575452248" name="Executable" projectType="cdt.managedbuild.target.gnu.mingw.exe"/>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/CameraCalibration2"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/CameraCalibration2"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.1062846637;cdt.managedbuild.config.gnu.mingw.exe.release.1062846637.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.2010394104;cdt.managedbuild.tool.gnu.c.compiler.input.71369795">
@@ -124,6 +166,4 @@
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
 		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
 </cproject>

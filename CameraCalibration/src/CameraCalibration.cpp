@@ -9,12 +9,16 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
-#include "opencv/cv.h"
+#include <cv.h>
+
+
+
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 
 using namespace std;
+using namespace cv;
 
 int n_boards = 0;
 const int board_dt = 20; // Wait 20 frames per chessboard view
