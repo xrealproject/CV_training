@@ -6,6 +6,7 @@ extern "C"
 {
 JNIEXPORT jstring JNICALL Java_com_example_testvideo_MainActivity_helloLog(JNIEnv *env,jobject thisObj)
 {
+	//afdsnl;asdfln;ladsf;ljfsdaa;lnfsdal;fsda;lnsad
 	   return env->NewStringUTF("Hello from native code!");
 	}
 }
